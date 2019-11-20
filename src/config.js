@@ -1,4 +1,5 @@
 export default {
+    STRIPE_KEY: "pk_test_wne7Zs0SXsxNyfbBQ19i4fmP00TM49MGrh",
     MAX_ATTACHMENT_SIZE: 5000000,
     s3: {
       REGION: "eu-west-2",
@@ -6,7 +7,7 @@ export default {
     },
     apiGateway: {
       REGION: "eu-west-2",
-      URL: "https://rcmjcufu82.execute-api.eu-west-2.amazonaws.com/prod/"
+      URL: "https://rcmjcufu82.execute-api.eu-west-2.amazonaws.com/prod"
     },
     cognito: {
       REGION: "eu-west-2",
